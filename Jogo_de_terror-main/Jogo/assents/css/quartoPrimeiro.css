@@ -1,0 +1,46 @@
+.red-box {
+  width: 15%;
+  height: 100px;
+  animation: andar 8s infinite linear;
+}
+.purple-box {
+  width: 15%;
+  height: 100px;
+  animation: andar 6s infinite linear;
+}
+@keyframes andar {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(600%);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+#finish {
+  width: 100px;
+  height: 100px;
+  align-self: flex-end;
+  justify-self: end;
+  margin: 0.5rem;
+  background-color: #62d907;
+}
+#vidas {
+  width: 100px;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+#vidas img {
+  width: 50px;
+}
+#vidas p {
+  color: white;
+  font-size: 16pt;
+  font-family: sans-serif;
+}

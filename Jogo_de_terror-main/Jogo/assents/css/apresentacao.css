@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1f1f1f;
+  gap: 3rem;
+}
+
+.dialog-content {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+
+  position: absolute;
+  bottom: 10px;
+  width: 98%;
+  max-width: 800px;
+  height: 25%;
+  background-color: #181820;
+
+  border: 5px solid #3a3838;
+  padding: 1rem;
+}
+
+.dialog-content p {
+  color: #ffffffe6;
+  font-size: 16pt;
+  font-family: sans-serif;
+}
+
+img {
+  width: 200px;
+  animation: surgir 3s;
+}
+@keyframes surgir {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 200px;
+  }
+}
+
+#lado-lado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 0.5rem;
+}
+#lado-lado button {
+  font-size: 13pt;
+  font-family: sans-serif;
+  padding: 0.5rem 0.8rem;
+  border-radius: 6px;
+  background-color: #1a1a3f;
+  box-shadow: 5px 5px 16px #1f1f1f;
+  color: #ffffffe6;
+  transition: 0.6s;
+}
+#lado-lado button:hover {
+  transform: scale(1.05);
+}

@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
+
+body {
+  background: url(../image/background-menu-2.jpg) no-repeat;
+  background-size: cover;
+}
+body,
+#center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+h1,
+button {
+  color: white;
+  transition: 0.6s;
+}
+#center h1 {
+  font-family: "Rubik Mono One", sans-serif;
+  font-size: 35pt;
+}
+button {
+  background-color: #2c363f;
+  font-family: sans-serif;
+  font-size: 13pt;
+  padding: 0.8rem 1rem;
+  border-radius: 16px;
+  box-shadow: 5px 5px 16px rgba(0, 0, 0, 0.274);
+}
+button:hover,
+h1:hover {
+  transform: scale(1.1);
+}

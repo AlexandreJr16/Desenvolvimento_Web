@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,800;0,900;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  width: 100vw;
+}
+
+#primeiro {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #404eed;
+  height: 75%;
+}
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Poppins", sans-serif;
+}
+
+#img-header img {
+  width: 130px;
+  cursor: pointer;
+}
+#opcs-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#opcs-header ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 7%;
+}
+#opcs-header ul li {
+  color: white;
+  transition: 0.6s;
+  font-size: 11pt;
+  cursor: pointer;
+}
+#opcs-header ul li:hover {
+  color: white;
+  border-bottom: 2px solid white;
+}
+#btn-header button {
+  color: #1f1f1f;
+  padding: 0.8em 1.2em;
+  border-radius: 16px;
+  font-weight: 400;
+  border: none;
+  background-color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+#btn-header button:hover {
+  box-shadow: 5px 5px 10px #2b36ae;
+  color: #404eed;
+}
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+  background: url(image/bd.svg) no-repeat;
+  background-size: cover;
+}
+#text-main {
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 60%;
+  gap: 20px;
+}
+#text-main h2 {
+  font-family: "Kanit", sans-serif;
+  color: white;
+  font-size: 45pt;
+  letter-spacing: 0;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#text-main p {
+  color: white;
+  width: 80%;
+}
+#pers1 {
+  width: 40%;
+  max-width: 650px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  bottom: 18%;
+}
+#pers2 {
+  width: 40%;
+  max-width: 650px;
+  position: absolute;
+  right: 0;
+  bottom: 18%;
+}
+#btn-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 25px;
+  margin-top: 2em;
+}
+#left-main-button {
+  z-index: 100;
+  padding: 0.8em 2em;
+  font-size: 12pt;
+  font-weight: 700px;
+  background-color: white;
+  border-radius: 25px;
+  border: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+#left-main-button:hover {
+  box-shadow: 5px 5px 10px #2b36ae;
+  color: #404eed;
+}
+#right-main-button {
+  z-index: 100;
+  padding: 0.8em 2em;
+  font-size: 12pt;
+  font-weight: 700px;
+  border-radius: 25px;
+  border: none;
+  transition: 0.3s;
+  cursor: pointer;
+  color: white;
+  background-color: #23272a;
+}
+#right-main-button:hover {
+  background-color: #272e34;
+  box-shadow: 1px 1px 10px #272e34;
+}
+
+#segundo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40vw;
+
+  background-color: white;
+}
+#segundo img {
+  width: 100%;
+}
+#terceiro img {
+  width: 100%;
+}
+#quarto img {
+  width: 100%;
+}
+#left-segundo {
+  width: 60%;
+}
+#right-segundo {
+  width: 40%;
+  margin-right: 50px;
+}
+#right-segundo h3 {
+  font-size: 25pt;
+}
+
+#terceiro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40vw;
+
+  background-color: white;
+  background-color: #f6f6f6;
+}
+#right-terceiro {
+  width: 60%;
+  margin-right: 50px;
+}
+#left-terceiro {
+  width: 40%;
+  margin-left: 50px;
+}
+#left-terceiro h3 {
+  font-size: 25pt;
+}
+
+#quarto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40vw;
+
+  background-color: white;
+}
+#left-quarto {
+  width: 60%;
+  margin-left: 50px;
+}
+#right-quarto {
+  width: 40%;
+  margin-right: 50px;
+}
+#right-quarto h3 {
+  font-size: 25pt;
+}
+
+#quinto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f6f6f6;
+  padding: 4em;
+  gap: 1em;
+}
+#txt-quinto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+}
+#txt-quinto h3 {
+  font-size: 30pt;
+  font-family: "Kanit", sans-serif;
+}
+#txt-quinto p {
+  font-size: 11pt;
+  font-weight: 300;
+}
+
+#btn-quinto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 20px;
+}
+#btn-quinto button {
+  z-index: 100;
+  padding: 0.8em 2em;
+  font-size: 12pt;
+  font-weight: 700px;
+  background-color: #5058f6;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+#btn-quinto button:hover {
+  box-shadow: 1px 1px 10px #1f1f1f;
+  background-color: #656bdb;
+}
+#btn-quinto h4 {
+  font-size: 20pt;
+  background: url(image/estrelas.svg) no-repeat;
+  background-size: cover;
+  width: 700px;
+  padding: 0.8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

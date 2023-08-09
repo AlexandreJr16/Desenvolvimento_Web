@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="css/contato.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/roda_pe.css" />
+    <script src="js/scripts.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div id="logo-header">
+          <a href="sobre.html">
+            <h1>Portifas</h1>
+          </a>
+        </div>
+        <div id="opc-header">
+          <ul>
+            <a href="sobre.html"> <li>Sobre</li> </a>
+            <a href="hard_skills.html"> <li>Hard skills</li> </a>
+            <a href="projetos.html"><li class="select">Projetos</li> </a>
+            <a href="contato.html"><li>Contato</li> </a>
+          </ul>
+        </div>
+
+        <div id="btn-menu">
+          <button id="btn-click">
+            <img
+              class="icon"
+              src="image/—Pngtree— icon_4697369 (1).png"
+              alt="menu"
+            />
+          </button>
+        </div>
+      </nav>
+      <div id="menu" class="invisivel">
+        <ul>
+          <a href="sobre.html"> <li>Sobre</li> </a>
+          <a href="hard_skills.html"> <li>Hard skills</li> </a>
+          <a href="projetos.html"><li class="select">Projetos</li> </a>
+          <a href="contato.html"><li>Contato</li> </a>
+        </ul>
+      </div>
+    </header>
+
+    <section id="first-section">
+      <div class="lado-section" id="lado-one">
+        <h2>Contate-me</h2>
+        <div id="meios-cont">
+          <div class="container">
+            <img src="image/mapa.png" alt="mapa" />
+            <p>
+              Av. Min. João Gonçalves de Souza, 916 - Distrito Industrial I,
+              Manaus - AM
+            </p>
+          </div>
+          <div class="container">
+            <img src="image/cartinha.png" alt="email" />
+            <p>gameraspj@gmail.com</p>
+          </div>
+          <div class="container">
+            <img src="image/zapzap.png" alt="telefone" />
+            <p>(92) 98801-2728</p>
+          </div>
+          <div class="container">
+            <img src="image/ant-design_clock-circle-outlined.png" alt="mapa" />
+            <p>07:00 às 15:30</p>
+          </div>
+          <div id="redes">
+            <a href="https://github.com/AlexandreJr16"
+              ><img src="image/git_hub.png" alt="gh"
+            /></a>
+            <a href="https://www.instagram.com/souzza.all/">
+              <img id="in" src="image/logotipo-do-instagram.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="lado-section" id="lado-two">
+        <form action="#">
+          <h2>Envie uma mensagem</h2>
+          <div class="duplo">
+            <div class="campo">
+              <label for="nome">Nome</label>
+              <input type="text" name="nome" id="nome" />
+            </div>
+            <div class="campo">
+              <label for="sobrenome">Sobrenome</label>
+              <input type="text" name="nome" id="sobrenome" />
+            </div>
+          </div>
+          <div class="campo">
+            <label for="org">Organização</label>
+            <input type="text" id="org" />
+          </div>
+
+          <div class="campo">
+            <label for="endereco">Endereço</label>
+            <input type="text" name="end" id="endereco" />
+          </div>
+          <div id="tres-em-um">
+            <div class="campo">
+              <label for="city">Cidade</label>
+              <input type="text" id="city" />
+            </div>
+
+            <div class="campo">
+              <label for="estado">Estado</label>
+              <select name="estado" id="escolher">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+              </select>
+            </div>
+
+            <div class="campo">
+              <label for="cep">CEP</label>
+              <input type="text" id="cep" />
+            </div>
+          </div>
+          <div class="text">
+            <div class="campo">
+              <label for="email">Email</label>
+              <input type="email" id="email" />
+            </div>
+            <div class="campo">
+              <label for="txt">Texto</label>
+              <textarea name="txt" id="txt"></textarea>
+            </div>
+          </div>
+          <input type="submit" value="Enviar" id="btn" />
+        </form>
+      </div>
+    </section>
+    <section id="roda-pe">
+      <div>
+        <a href="sobre.html">
+          <h1>Portifas</h1>
+        </a>
+      </div>
+      <div>
+        <a href="https://github.com/AlexandreJr16">
+          <img id="gh" src="image/git_hub.png" alt="gh"
+        /></a>
+        <a href="https://www.instagram.com/souzza.all/">
+          <img id="ints" src="image/logotipo-do-instagram.png" alt=""
+        /></a>
+      </div>
+    </section>
+  </body>
+</html>
